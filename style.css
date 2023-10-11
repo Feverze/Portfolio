@@ -118,6 +118,21 @@ header .info-text .scroll::before{
     transition: all 0.3s ease;
 }
 
+a[href="https://www.linkedin.com/in/francesco-benedetto-674586291/"] {
+    position: absolute;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #fff;
+    border-color: #fff;
+    border: 1px solid transparent;
+    padding: 10px 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    margin-left: 975px;
+}
+
+
 #about .header a:hover, #features .header a:hover{
     border-color: #fff;
     box-shadow: none;
