@@ -93,7 +93,7 @@ header .info-text .scroll::before{
     padding: 40px;
 }
 
-#about .header, #features .header{
+#about .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,7 +106,14 @@ header .info-text .scroll::before{
     text-transform: uppercase;
 }
 
-#about .header a, #features .header a{
+#about .header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 40px;
+}
+
+#about .header a{
     text-decoration: none;
     font-size: 1.3em;
     color: #fff;
@@ -118,20 +125,13 @@ header .info-text .scroll::before{
     transition: all 0.3s ease;
 }
 
-a[href="https://www.linkedin.com/in/francesco-benedetto-674586291/"] {
-    position: absolute;
-    text-decoration: none;
-    font-size: 1.3em;
-    color: #fff;
-    border-color: #fff;
-    border: 1px solid transparent;
-    padding: 10px 50px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
-    border-radius: 6px;
-    transition: all 0.3s ease;
-    margin-left: 975px;
+#about .header a.linkedin{
+    margin-left: 60%;
 }
 
+#about .header a.contact{
+    margin-left: 0%;
+}
 
 #about .header a:hover, #features .header a:hover{
     border-color: #fff;
@@ -261,10 +261,12 @@ a[href="https://www.linkedin.com/in/francesco-benedetto-674586291/"] {
         max-height: 150px;
     }
 
-    a[href="https://www.linkedin.com/in/francesco-benedetto-674586291/"] {
-        font-size: 1em;
-        padding: 8px 40px;
+    #about .header {
+        flex-direction: column;
+        align-items: center;
     }
 
-
+    #about .header a {
+        margin: 5px 0; 
+    }
 }
