@@ -95,7 +95,7 @@ header .info-text .scroll::before{
 
 #about .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 40px;
 }
@@ -132,6 +132,7 @@ header .info-text .scroll::before{
 #about .header a.contact{
     margin-left: 0%;
 }
+
 
 #about .header a:hover, #features .header a:hover{
     border-color: #fff;
@@ -268,5 +269,11 @@ header .info-text .scroll::before{
 
     #about .header a {
         margin: 5px 0; 
+    }
+
+    #about .header a.linkedin, #about .header a.contact {
+        display: block; /* Change buttons to block-level elements */
+        text-align: center; /* Center-align the buttons within the container */
+        margin: 5px 0; /* Add margin to separate the buttons */
     }
 }
