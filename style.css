@@ -261,4 +261,10 @@ a[href="https://www.linkedin.com/in/francesco-benedetto-674586291/"] {
         max-height: 150px;
     }
 
+    a[href="https://www.linkedin.com/in/francesco-benedetto-674586291/"] {
+        font-size: 1em;
+        padding: 8px 40px;
+    }
+
+
 }
